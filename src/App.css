@@ -1,0 +1,417 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #efefef;
+  flex-direction: column;
+  min-height: 100vh;
+  display:flow-root;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+}
+
+.text-label{
+  color:black;
+  font-size: 12pt;
+   
+  
+}
+.format-form{
+  width: 15%;
+  height: 200px;
+  margin-top: -0.2%;
+  margin-left: 5vh;
+  flex-direction: column;
+  float: left;
+  
+}
+#mudapos:checked {
+  background-color: red;
+  
+}
+
+.format-form2{
+  width: 34%;
+  height: 200px;
+  margin-top: 3.4%;
+  margin-left: -15%;
+  flex-direction: column;
+  float: left;
+    
+}
+h3{
+  text-align: left;
+}
+.h4{
+  text-align: left;
+  margin-top: 2%;
+}
+
+.format-rendimento{
+
+  text-align: left;
+  font-size: 10pt;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.format-rendimento2{
+
+
+  text-align: center;
+  margin-left: 19%;
+  font-size: 10pt;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.btn-group .button1 {
+  
+  border-radius: 12px 0px 0px 9px ;
+
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  width: 50%;
+  display: block;
+  border-color: black;
+  
+}
+
+.btn-group .button2 {
+  background-color: #efefef; 
+  display: block;
+  border-radius: 0px 12px 12px 0px ;
+  border-color: black;
+  width: 50%;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  
+}
+
+.btn-group2 .button3 {
+  
+  border-radius: 12px 0px 0px 9px ;
+
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  width: 33%;
+  display: block;
+  border-color: black;
+  float: left;
+}
+
+.btn-group2 .button4 {
+  
+  border-radius: 0px 0px 0px 0px ;
+
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  width: 33%;
+  display: block;
+  border-color: black;
+  float: left;
+}
+
+.btn-group2 .button5 {
+  
+  border-radius: 0px 12px 12px 0px ;
+
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  width: 33%;
+  display: block;
+  border-color: black;
+  float: left;
+}
+
+.btn-group .button:hover {
+  background-color: #3e8e41;
+}
+
+input{
+  font-size: 12pt;
+}
+
+.format-div-chek{
+  border: 1px ;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 10px;
+  
+ 
+}
+
+.format-p-chek{
+  
+  align-items: center;
+  text-align: center;
+  float: left;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+.format-label-chek{
+  background-color: #efefef;
+  position: relative;
+  height: 42px;
+  width: 50%;
+  border-radius: 9px 0px 0px 9px;
+  border: 2px ;
+  border-color: black;
+  border-style: solid;
+  font-size: 12pt;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+
+
+}
+.format-input-chek{
+  display: none;
+  
+}
+
+.format-label-chek2{
+  background-color: #efefef;
+  position: relative;
+  margin-top: -6.0vh;
+  float: right;
+  height: 42px;
+  width: 48%;
+  border-radius: 0px 9px 9px 0px;
+  border: 2px ;
+  border-color: black;
+  border-style: solid;
+  font-size: 12pt;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+
+
+}
+
+.format-div-chek2{
+  border: 1px ;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 10px;
+  margin-left: 50%;
+  
+ 
+}
+
+.format-p-chekpos{
+  
+  align-items: center;
+  text-align: center;
+  float: left;
+  margin-left: 30%;
+  margin-top: -39%;
+}
+
+.format-label-chekpos{
+  background-color: #efefef;
+  position: relative;
+  height: 42px;
+  width: 33%;
+  border-radius: 9px 0px 0px 9px;
+  border: 2px ;
+  border-color: black;
+  border-style: solid;
+  font-size: 12pt;
+  
+  text-align: center;
+  font-weight: bold;
+
+
+}
+.format-input-chekpos{
+  display: none;
+  
+}
+
+
+.format-input-chek{
+  display: none;
+  
+}
+
+.format-input-chekpre{
+  display: none;
+  
+}
+
+.format-label-chekpre{
+  background-color: #efefef;
+  position:relative;
+  float: left;
+  margin-top: 0vh;
+  margin-left: 33%;
+  height: 42px;
+  width: 33%;
+  border-radius: 0px 0px 0px 0px;
+  border: 2px ;
+  border-color: black;
+  border-style: solid;
+  font-size: 12pt;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+
+
+}
+.format-input-chekfixado{
+  display: none;
+  
+}
+
+.format-p-chekfixado{
+  
+  align-items: center;
+  text-align: center;
+  float: left;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+.format-label-chekfixado{
+  background-color: #efefef;
+  position: relative;
+  margin-top: -17.0%;
+  float: right;
+  margin-left: 10%;
+  height: 42px;
+  width: 32%;
+  border-radius: 0px 9px 9px 0px;
+  border: 2px ;
+  border-color: black;
+  border-style: solid;
+  font-size: 12pt;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+
+
+}
+
+label{
+  display: block;
+  margin-top: 20px;
+  font-size: 12pt;
+  text-align: left;
+
+  
+
+}
+.format-icon2{
+  float:right;
+  margin-top: 11px;
+  width: 20px;
+}
+
+.format-icon{
+  float:right;
+  margin-top: -3px;
+  width: 20px;
+}
+.format-button{
+  float: left;
+  margin-left: 2%;
+  margin-top: 19.2%;
+  width: 100%;
+  height: 50px;
+  border-radius: 8px ;
+  border-color: black;
+  font-size: 12pt;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+
+}
+
+.format-button2{
+  margin-top: 13.2%;
+  width: 100%;
+  float: left;
+  height: 50px;
+  border-radius: 8px;
+  border: 0 none;
+  background-color: #969696;
+  font-size: 12pt;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+
+}
+
+input{
+  
+  align-self: center;
+  width: 100%;
+  height: 30px;
+  margin-top: 10%;
+  display: block;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-style:solid;
+  border-bottom-width: 1px;
+  background-color: #efefef;
+}
+h2 {
+  color:black;
+  
+  justify-self:normal;
+  text-align: center;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
